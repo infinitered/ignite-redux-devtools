@@ -1,7 +1,7 @@
 {
   "name": "ignite-redux-devtools",
   "description": "An Ignite CLI plugin for Redux DevTools.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": {
     "name": "Ryan Linton",
