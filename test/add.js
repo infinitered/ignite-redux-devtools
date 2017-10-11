@@ -2,22 +2,20 @@ const test = require('ava')
 const sinon = require('sinon')
 const plugin = require('../plugin')
 
-test('adds the proper npm module and component example', async t => {
+test('adds the proper npm module and config', async t => {
   // spy on few things so we know they're called
   const addModule = sinon.spy()
-  const addPluginComponentExample = sinon.spy()
-  
+  const setDebugConfig = sinon.spy()
+  const patchInFile = sinon.spy()
+
   // mock a context
   const context = {
-    ignite: { addModule, addPluginComponentExample }
+    ignite: { addModule, setDebugConfig, patchInFile }
   }
 
   await plugin.add(context)
-  
-  t.true(addModule.calledWith('react-native-MODULENAME', { link: true }))
-  t.true(
-    addPluginComponentExample.calledWith('ReduxDevtoolsExample.js', {
-      title: 'ReduxDevtools Example'
-    })
-  )
+
+  t.true(addModule.calledWith('remote-redux-devtools'))
+  t.true(setDebugConfig.calledWith('useReduxDevTools', '__DEV__', true))
+  t.true(patchInFile.called)
 })
