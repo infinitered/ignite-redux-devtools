@@ -34,4 +34,4 @@ This plugin is licensed MIT by Infinite Red, Inc., and was created by Ryan Linto
 
 ## Acknowledgements
 
-Special thanks to @l1br3 for providing the initial code for this.
+Special thanks to [@l1br3](https://github.com/l1br3) for providing the initial code for this.
