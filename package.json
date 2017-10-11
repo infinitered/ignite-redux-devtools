@@ -1,0 +1,33 @@
+{
+  "name": "ignite-redux-devtools",
+  "description": "An Ignite CLI plugin for Redux DevTools.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Ryan Linton",
+    "email": "ryan@infinite.red",
+    "url": "https://github.com/infinitered/ignite-redux-devtools"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava",
+    "watch": "ava --watch",
+    "coverage": "nyc ava",
+    "shipit": "np"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "url": "https://github.com/infinitered/ignite-redux-devtools",
+  "repository": "infinitered/ignite-redux-devtools",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.1.1",
+    "np": "^2.12.0",
+    "nyc": "^10.1.2",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  }
+}
+
+
