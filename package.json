@@ -22,13 +22,17 @@
   "url": "https://github.com/infinitered/ignite-redux-devtools",
   "repository": "infinitered/ignite-redux-devtools",
   "devDependencies": {
-    "@semantic-release/git": "^7.0.5",
-    "ava": "^0.18.2",
-    "babel-eslint": "^7.1.1",
-    "nyc": "^10.1.2",
-    "semantic-release": "^15.12.5",
-    "sinon": "^1.17.7",
-    "standard": "^8.6.0"
+    "@semantic-release/git": "7.0.7",
+    "ava": "1.0.1",
+    "babel-eslint": "10.0.1",
+    "nyc": "13.1.0",
+    "semantic-release": "15.13.2",
+    "sinon": "7.2.2",
+    "standard": "12.0.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   },
   "release": {
     "plugins": [

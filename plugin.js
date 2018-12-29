@@ -2,11 +2,11 @@
 // ----------------------------------------------------------------------------
 
 const NPM_MODULE_NAME = 'remote-redux-devtools'
-const NPM_MODULE_VERSION = '^0.5.12'
+const NPM_MODULE_VERSION = '^0.5.16'
 
 const APP_PATH = process.cwd()
 
-const add = async function (context) {
+const add = async function(context) {
   const { ignite } = context
 
   // install the NPM module
@@ -32,7 +32,7 @@ const add = async function (context) {
   })
 }
 
-const remove = async function (context) {
+const remove = async function(context) {
   const { ignite } = context
 
   // remove the NPM module
