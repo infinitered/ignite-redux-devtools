@@ -1,5 +1,9 @@
 # Ignite Redux DevTools
 
+## Why is this archived?
+
+We really appreciate all the community support in the years since we first released ignite-redux-devtools. Our focus has shifted to the latest version of [Ignite](https://github.com/infinitered/ignite), which does not have a plugin-based architecture ([read more here](https://shift.infinite.red/introducing-ignite-4-0-flame-1dfc891f9966)). Feel free to fork this library and continue on its legacy if you want. 
+
 This plugin adds support for remote-redux-devtools.
 
 By default it is setup to work with [http://remotedev.io/local/](http://remotedev.io/local/)
